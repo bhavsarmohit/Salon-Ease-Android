@@ -10,7 +10,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="salonAtHome" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Home" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="AutoImportSettings">
@@ -22,16 +22,77 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Salon-Ease.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Salon-Ease.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/salon_ease/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/caprusdigi/salon_ease/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/FirebaseCustomDefinitions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/FirebaseCustomDefinitions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/ImageAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/ImageAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/SingleToast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/SingleToast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/Splash_Screen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/Splash_Screen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/chooseYourself.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/chooseYourself.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_customer/dashboard_customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_customer/dashboard_customer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_customer/fragments/customer_EditProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_customer/fragments/customer_EditProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_customer/fragments/customer_Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_customer/fragments/customer_Home.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_customer/fragments/customer_notifications.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_customer/fragments/customer_notifications.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_customer/fragments/customer_termsAndConditions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_customer/fragments/customer_termsAndConditions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/bookingHistory_vendor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/bookingHistory_vendor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/classesDatabase/userProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/classesDatabase/userProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/dashboard_vendor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/dashboard_vendor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/CustomAdapter_services.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/CustomAdapter_services.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/ItemsViewModel_services.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/ItemsViewModel_services.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_HomeShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_HomeShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_Remove.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/subCategories/vendor_salonAtHome_Services_subCategories_Remove.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_EditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_EditService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_HomeShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_HomeShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_Remove.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/Services/vendor_salonAtHome_Services_Remove.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_AddImages.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_AddImages.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_BookingHistory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_BookingHistory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_ProductsUsed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonAtHome/vendor_salonAtHome_ProductsUsed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_EditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_EditService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_HomeShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_HomeShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_Remove.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/salonStation/Services/vendor_salonStation_Services_Remove.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_HomeShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_HomeShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_Remove.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/subCategories/vendor_spaStation_Services_subCategories_Remove.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_EditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_EditService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_HomeShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_HomeShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_Remove.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/spaStation/Services/vendor_spaStation_Services_Remove.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_BookingHistory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_BookingHistory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_EditProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_EditProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_Home.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_Notifications.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_Notifications.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_SalonAtHome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_SalonAtHome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_Salon_EditProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_Salon_EditProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_salonStation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_salonStation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_spaStation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_spaStation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/dashboard_vendor/fragments/vendor_termsAndConditions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/dashboard_vendor/fragments/vendor_termsAndConditions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/fillDetailsUserRegister.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/fillDetailsUserRegister.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/fillDetailsVendorSalonRegister.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/fillDetailsVendorSalonRegister.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/forgotPassword.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/forgotPassword.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/otpVerification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/otpVerification.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/salon_ease/welcomeMobileEnter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caprusdigi/salon_ease/welcomeMobileEnter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/salon_ease/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/caprusdigi/salon_ease/ExampleUnitTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RZ8R80D04GT]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[413ed8d10504]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -111,12 +172,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="BundleExportedModule" value="Salon-Ease.app" />
-    <property name="ExportApk.ApkPath" value="C:\Users\mohit\AndroidStudioProjects\Salon-Ease\app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\mohit\Desktop\release" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-viewC:/Users/mohit/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.1/f0f93e67af3f7417bdd560d5142f6dec4fe629c3/recyclerview-1.2.1-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/release" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -234,5 +295,16 @@
       <updated>1637245160744</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

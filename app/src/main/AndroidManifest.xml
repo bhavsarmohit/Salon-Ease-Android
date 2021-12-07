@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.salon_ease">
+    package="com.caprusdigi.salon_ease">
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,41 +14,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SaloonEase">
         <activity
-            android:name=".fillDetailsVendorSalonRegister"
+            android:name="com.caprusdigi.salon_ease.fillDetailsVendorSalonRegister"
             android:exported="true" />
         <activity
-            android:name=".otpVerification"
+            android:name="com.caprusdigi.salon_ease.otpVerification"
             android:exported="true" />
         <activity
-            android:name=".dashboard_vendor.bookingHistory_vendor"
+            android:name="com.caprusdigi.salon_ease.dashboard_vendor.bookingHistory_vendor"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".dashboard_customer.dashboard_customer"
+            android:name="com.caprusdigi.salon_ease.dashboard_customer.dashboard_customer"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".chooseYourself"
+            android:name="com.caprusdigi.salon_ease.chooseYourself"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".dashboard_vendor.dashboard_vendor"
+            android:name="com.caprusdigi.salon_ease.dashboard_vendor.dashboard_vendor"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".forgotPassword"
+            android:name="com.caprusdigi.salon_ease.forgotPassword"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".fillDetailsUserRegister"
+            android:name="com.caprusdigi.salon_ease.fillDetailsUserRegister"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".welcomeMobileEnter"
+            android:name="com.caprusdigi.salon_ease.welcomeMobileEnter"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Splash_Screen"
+            android:name="com.caprusdigi.salon_ease.Splash_Screen"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
