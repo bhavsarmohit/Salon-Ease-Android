@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="shadow">#C3C3C3</color>
+
+    <color name="green">#63BC1C</color>
+    <color name="red">#FF5353</color>
+
+    <color name="yellow">#FFBD00</color>
+    <color name="yellow_200">#FFE188</color>
+    <color name="yellow_500">#FED813</color>
+    <color name="yellow_700">#FFBD00</color>
+
+    <color name="button">#FED813</color>
+    <color name="textview">#676767</color>
+    <color name="textview_lite">#6B7483</color>
+
+    <color name="textview_dark">#A17800</color>
+    <color name="textview_green">#156876</color>
+    <color name="textview_green_dark">#0D505B</color>
+
+
+    <color name="textview_purple_dark">#2D0D5B</color>
+
+    <color name="edittext">#E3B224</color>
+
+    <!--    vector icons-->
+    <color name="vector_icon">#FDBC00</color>
+
+    <!--    Background color-->
+    <color name="background_color">#FDBC00</color>
+    <color name="background_color_card">#FDBC00</color>
+    <color name="background_color_activity">#F2EEFF</color>
+
+
+    <!--    border color-->
+    <color name="border_color">#89D5FF</color>
+    <color name="border_color_selected">#00E0E0</color>
+    <color name="border_color_dark">#0D505B</color>
+
+<!--    divider color-->
+    <color name="divider_color">#DCDCDC</color>
+
+<!--    card background-->
+    <color name="card_disable_red_background_color">#FFF1F1</color>
+    <color name="card_disable_red_background_colors">#EDFFEA</color>
+
+
+</resources>

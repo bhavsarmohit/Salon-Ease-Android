@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboard_vendor.fragments.vendor_spaStation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_bannerBg"
+            android:layout_width="match_parent"
+            android:elevation="15dp"
+            android:layout_height="200dp">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="0"/>
+        </com.google.android.material.card.MaterialCardView>
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_services"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Services"/>-->
+
+
+        <LinearLayout
+            android:id="@+id/layout_features"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_bannerBg"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/layout_services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/img_services"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/img_lady"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="@color/shadow"
+                    app:civ_shadow_radius="4" />
+
+                <TextView
+                    android:id="@+id/tv_services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Services"/>
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:id="@+id/layout_bookingHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/img_book_history"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/img_book"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="@color/shadow"
+                    app:civ_shadow_radius="4" />
+
+                <TextView
+                    android:id="@+id/tv_bookingHistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Booking History"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

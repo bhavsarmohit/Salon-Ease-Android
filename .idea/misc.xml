@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/border.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/border_dark_circular.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/button_bg.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/ic_assignment_apply_for_vendor.xml" value="0.2" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/ic_call.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_dashboard_customer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_dashboard_vendor.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_fill_details_user_register.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_fill_details_vendor_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_fill_details_vendor_salon_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_otp_verification.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_sign_up.xml" value="0.23865877712031558" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_vendor_services.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_vendor_services_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_vendor_services_remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/activity_welcome_mobile_enter.xml" value="0.23234916559691912" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_customer__edit_profile.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_customer__home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_customer_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_customer_terms_and_conditions.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__booking_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__home.xml" value="0.152" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__salon__edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__salon_at_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__salon_at_spa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor__salon_at_spa2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__add_images.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__booking_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__products_used.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services__add.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services__edit_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services__home_show.xml" value="0.2" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services__remove.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services_sub_categories__add.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services_sub_categories__home_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_at_home__services_sub_categories__remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services__add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services__edit_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services__home_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services__remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services_sub_categories__add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services_sub_categories__home_show.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_salon_station__services_sub_categories__remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_services.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_services_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_services_remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services__add.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services__edit_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services__home_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services__remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services_sub_categories__add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services_sub_categories__home_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_spa_station__services_sub_categories__remove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/fragment_vendor_terms_and_conditions.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/recyclerview_vendor_service_description.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/recyclerview_vendor_services.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/spinner_list_image_string.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/layout/textview_with_padding_spinner.xml" value="0.264" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/menu/nav_menu_customer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/menu/nav_menu_vendor.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

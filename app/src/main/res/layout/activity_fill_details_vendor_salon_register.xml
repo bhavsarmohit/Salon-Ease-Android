@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_bg_top"
+            android:layout_width="292dp"
+            android:layout_height="171dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/curve_design_background" />
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/layout_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/tv_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Welcome"
+                android:textColor="@color/textview"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_pleaseFillDetailsSalon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/tv_welcome"
+                android:layout_marginTop="25dp"
+                android:text="Please fill the Salon Details for Vendor Access"
+                android:textColor="@color/purple_200"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/material_salonName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_pleaseFillDetailsSalon"
+                android:layout_marginTop="10dp"
+                android:hint="Salon Name"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                app:startIconContentDescription="Name"
+                app:startIconDrawable="@drawable/ic_person">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_salonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/et_mobile"
+                    android:scrollHorizontally="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:id="@+id/et_email"-->
+            <!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/et_name"-->
+            <!--                android:hint="  Email"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                app:boxCornerRadiusBottomEnd="50dp"-->
+            <!--                app:boxCornerRadiusBottomStart="50dp"-->
+            <!--                app:boxCornerRadiusTopEnd="50dp"-->
+            <!--                app:boxCornerRadiusTopStart="50dp"-->
+            <!--                app:endIconMode="clear_text"-->
+            <!--                app:startIconContentDescription="LastName"-->
+            <!--                app:startIconDrawable="@drawable/ic_person">-->
+
+            <!--                <com.google.android.material.textfield.TextInputEditText-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="50dp"-->
+            <!--                    android:inputType="text"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:nextFocusDown="@+id/et_mobile"-->
+            <!--                    android:scrollHorizontally="true" />-->
+
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/material_mobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/material_salonName"
+                android:layout_marginTop="10dp"
+                android:hint="Salon Contact"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                app:startIconContentDescription="Mobile"
+                app:startIconDrawable="@drawable/ic_call">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/material_name"
+                    android:scrollHorizontally="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/material_address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/material_mobile"
+                android:layout_marginTop="10dp"
+                android:hint="Salon Address"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                app:startIconContentDescription="Address"
+                app:startIconDrawable="@drawable/ic_call">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/material_name"
+                    android:scrollHorizontally="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/material_City"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/material_address"
+                android:layout_marginTop="10dp"
+                android:hint="City"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                app:startIconContentDescription="City"
+                app:startIconDrawable="@drawable/ic_call">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/material_name"
+                    android:scrollHorizontally="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/material_City"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bg"
+                android:text="Register"
+
+                android:textColor="@color/white" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_orSignUpWith"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/btn_signUp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:text="Or, SignUp With" />-->
+
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/linearLayout_icons"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/btn_signUp"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:orientation="horizontal">-->
+
+            <!--                <ImageButton-->
+            <!--                    android:id="@+id/imgbtn_iconGoogle"-->
+            <!--                    android:layout_width="80dp"-->
+            <!--                    android:layout_height="80dp"-->
+            <!--                    android:background="@drawable/logo_google" />-->
+
+            <!--                <Space-->
+            <!--                    android:layout_width="30dp"-->
+            <!--                    android:layout_height="wrap_content" />-->
+
+            <!--                <ImageButton-->
+            <!--                    android:id="@+id/imgbtn_iconCall"-->
+            <!--                    android:layout_width="80dp"-->
+            <!--                    android:layout_height="80dp"-->
+            <!--                    android:background="@drawable/logo_call" />-->
+
+            <!--            </LinearLayout>-->
+
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_bg_bottom"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/curve_design_background"
+            android:rotation="180" />
+
+    </RelativeLayout>
+</ScrollView>

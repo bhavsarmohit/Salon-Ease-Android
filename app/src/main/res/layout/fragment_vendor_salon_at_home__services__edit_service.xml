@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboard_vendor.fragments.salonAtHome.Services.vendor_salonAtHome_Services_EditService">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <!--                <RelativeLayout-->
+                <!--                    android:id="@+id/rl_profilePic"-->
+                <!--                    android:layout_centerHorizontal="true"-->
+                <!--                    android:layout_alignParentTop="true"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:layout_width="80dp"-->
+                <!--                    android:layout_height="80dp">-->
+
+                <!--                    <com.mikhaellopez.circularimageview.CircularImageView-->
+                <!--                        android:id="@+id/img_profile"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:src="@drawable/ic_person"-->
+                <!--                        app:civ_border_color="@android:color/darker_gray"-->
+                <!--                        app:civ_border_width="2dp"-->
+                <!--                        app:civ_shadow="true"-->
+                <!--                        app:civ_shadow_radius="7" />-->
+
+                <!--                    <ImageView-->
+                <!--                        android:id="@+id/img_editProfilePen"-->
+                <!--                        android:layout_width="20dp"-->
+                <!--                        android:layout_height="20dp"-->
+                <!--                        android:layout_alignBottom="@id/img_profile"-->
+                <!--                        android:layout_alignParentRight="true"-->
+                <!--                        android:src="@drawable/ic_edit_pen" />-->
+                <!--                </RelativeLayout>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/tv_salonStation"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_alignParentTop="true"-->
+                <!--                    android:layout_centerHorizontal="true"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:text="Salon Station"-->
+                <!--                    android:textColor="@color/purple_700"-->
+                <!--                    android:textSize="25dp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <TextView
+                    android:id="@+id/tv_editService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Edit Service:"
+                    android:textColor="@color/textview_green"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_serviceName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_editService"
+                    android:layout_marginTop="5dp"
+                    android:hint="Service Name"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Service Name"
+                    app:startIconDrawable="@drawable/ic_hopping_bag_products">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_serviceName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_description"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_serviceName"
+                    android:layout_marginTop="5dp"
+                    android:hint="Description"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Description"
+                    app:startIconDrawable="@drawable/ic_hopping_bag_products">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_originalPrice"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_description"
+                    android:layout_marginTop="5dp"
+                    android:hint="Original Price"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Description"
+                    app:startIconDrawable="@drawable/ic_hopping_bag_products">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_originalPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    android:id="@+id/material_offerPrice"-->
+<!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/material_originalPrice"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:hint="Offer Price"-->
+<!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+<!--                    app:boxCornerRadiusBottomStart="10dp"-->
+<!--                    app:boxCornerRadiusTopEnd="10dp"-->
+<!--                    app:boxCornerRadiusTopStart="10dp"-->
+<!--                    app:endIconMode="clear_text"-->
+<!--                    app:startIconContentDescription="Description"-->
+<!--                    app:startIconDrawable="@drawable/ic_hopping_bag_products">-->
+
+<!--                    <com.google.android.material.textfield.TextInputEditText-->
+<!--                        android:id="@+id/et_offerPrice"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:inputType="text"-->
+<!--                        android:maxLines="1"-->
+<!--                        android:nextFocusDown="@+id/et_password"-->
+<!--                        android:scrollHorizontally="true" />-->
+
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_serviceTime"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_originalPrice"
+                    android:layout_marginTop="5dp"
+                    android:hint="Service Time"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Description"
+                    app:startIconDrawable="@drawable/ic_hopping_bag_products">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_serviceTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_serviceTime"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_bg"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Back"
+
+                        android:textColor="@color/white" />
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_saveChanges"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_bg"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Save Changes"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/layout_buttons" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

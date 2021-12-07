@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <RelativeLayout
+                    android:id="@+id/rl_profilePic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:id="@+id/img_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_person"
+                        app:civ_border_color="@android:color/darker_gray"
+                        app:civ_border_width="2dp"
+                        app:civ_shadow_radius="2" />
+
+                    <ImageView
+                        android:id="@+id/img_editProfilePen"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignBottom="@id/img_profile"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_edit_pen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_editProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_profilePic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Edit Profile"
+                    android:textColor="@color/purple_500"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_salonName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_editProfile"
+                    android:layout_marginTop="30dp"
+                    android:hint="Salon Name"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Username"
+                    app:startIconDrawable="@drawable/ic_person">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_salonName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    android:id="@+id/material_email"-->
+<!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/material_salonName"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:hint="Email"-->
+<!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+<!--                    app:boxCornerRadiusBottomStart="10dp"-->
+<!--                    app:boxCornerRadiusTopEnd="10dp"-->
+<!--                    app:boxCornerRadiusTopStart="10dp"-->
+<!--                    app:endIconMode="clear_text"-->
+<!--                    app:startIconContentDescription="Username"-->
+<!--                    app:startIconDrawable="@drawable/ic_email">-->
+
+<!--                    <com.google.android.material.textfield.TextInputEditText-->
+<!--                        android:id="@+id/et_email"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:inputType="text"-->
+<!--                        android:maxLines="1"-->
+<!--                        android:nextFocusDown="@+id/et_password"-->
+<!--                        android:scrollHorizontally="true" />-->
+
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_mobile"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_salonName"
+                    android:layout_marginTop="5dp"
+                    android:hint="Contact"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Mobile"
+                    app:startIconDrawable="@drawable/ic_call">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/material_location"-->
+<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/material_mobile"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:hint="Location"-->
+<!--                app:boxCornerRadiusBottomEnd="10dp"-->
+<!--                app:boxCornerRadiusBottomStart="10dp"-->
+<!--                app:boxCornerRadiusTopEnd="10dp"-->
+<!--                app:boxCornerRadiusTopStart="10dp"-->
+<!--                app:endIconMode="clear_text"-->
+<!--                app:startIconContentDescription="Location"-->
+<!--                app:startIconDrawable="@drawable/ic_location">-->
+
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/et_location"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:inputType="text"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:nextFocusDown="@+id/et_password"-->
+<!--                    android:scrollHorizontally="true" />-->
+
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_address"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_mobile"
+                    android:layout_marginTop="5dp"
+                    android:hint="Address"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Address"
+                    app:startIconDrawable="@drawable/ic_location">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_city"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_address"
+                    android:layout_marginTop="5dp"
+                    android:hint="City"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="City"
+                    app:startIconDrawable="@drawable/ic_map">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_pin"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_city"
+                    android:layout_marginTop="5dp"
+                    android:hint="Pin"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Pin"
+                    app:startIconDrawable="@drawable/ic_pin">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_openingTime"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_pin"
+                    android:layout_marginTop="5dp"
+                    android:hint="Opening Time"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Opening Time"
+                    app:startIconDrawable="@drawable/opening_time">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_openingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/material_closingTime"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_openingTime"
+                    android:layout_marginTop="5dp"
+                    android:hint="Closing Time"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:endIconMode="clear_text"
+                    app:startIconContentDescription="Closing Time"
+                    app:startIconDrawable="@drawable/closing_time">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_closingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_password"
+                        android:scrollHorizontally="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--                <EditText-->
+                <!--                    android:id="@+id/et_nameSimple"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@id/material_closingTime"-->
+                <!--                    android:hint="Name"/>-->
+
+                <Button
+                    android:id="@+id/btn_saveProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/material_closingTime"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:text="Save Profile"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/btn_saveProfile"/>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+</FrameLayout>

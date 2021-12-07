@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboard_vendor.fragments.vendor_Home">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_bannerBg"
+            android:layout_width="match_parent"
+            android:elevation="15dp"
+            android:layout_height="200dp">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="0"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_salonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_bannerBg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Welcome"
+            android:textColor="@color/purple_700"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_editProfilePen"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_alignBottom="@id/tv_salonName"-->
+<!--            android:layout_toRightOf="@id/tv_salonName"-->
+<!--            android:src="@drawable/ic_edit_pen" />-->
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_salonName"
+            android:layout_margin="5dp"
+            android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_features"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_salonName"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_salonStation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <com.mikhaellopez.circularimageview.CircularImageView
+                                    android:id="@+id/img_salonStation"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/img_lady"
+                                    app:civ_shadow="true"
+                                    app:civ_shadow_color="@color/shadow"
+                                    app:civ_shadow_radius="4" />
+
+                                <TextView
+                                    android:id="@+id/tv_salonStation"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Salon Station"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                            <ToggleButton
+                                android:id="@+id/toggle_salonStation"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@color/yellow_200" />
+
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_spaStation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <com.mikhaellopez.circularimageview.CircularImageView
+                                    android:id="@+id/img_spaStation"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:src="@drawable/img_lady"
+                                    app:civ_shadow="true"
+                                    android:layout_margin="10dp"
+                                    app:civ_shadow_color="@color/shadow"
+                                    app:civ_shadow_radius="4" />
+
+                                <TextView
+                                    android:id="@+id/tv_spaStation"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="SPA Station"
+                                    android:textStyle="bold"
+                                    android:textSize="16dp"/>
+
+
+
+
+                            </LinearLayout>
+
+
+                            <ToggleButton
+                                android:id="@+id/toggle_spaStation"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@color/yellow_200" />
+
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_salonAtHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <com.mikhaellopez.circularimageview.CircularImageView
+                                    android:id="@+id/img_salonAtHome"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/img_lady"
+                                    app:civ_shadow="true"
+                                    app:civ_shadow_color="@color/shadow"
+                                    app:civ_shadow_radius="4" />
+
+                                <TextView
+                                    android:id="@+id/tv_salonAtHome"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Salon At Home"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+
+                            <ToggleButton
+                                android:id="@+id/toggle_salonAtHome"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@color/yellow_200" />
+
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+        <!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center_horizontal">-->
+
+<!--                <com.mikhaellopez.circularimageview.CircularImageView-->
+<!--                    android:id="@+id/img_profile"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:src="@drawable/img_lady"-->
+<!--                    app:civ_shadow="true"-->
+<!--                    app:civ_shadow_color="@color/shadow"-->
+<!--                    app:civ_shadow_radius="4" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_services"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Salon At Home"/>-->
+
+<!--            </LinearLayout>-->
+
+
+<!--            <Space-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center_horizontal">-->
+
+<!--                <com.mikhaellopez.circularimageview.CircularImageView-->
+<!--                    android:id="@+id/img_book_history"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:src="@drawable/img_book"-->
+<!--                    app:civ_shadow="true"-->
+<!--                    app:civ_shadow_color="@color/shadow"-->
+<!--                    app:civ_shadow_radius="4" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_bookingHistory"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Salon At Spa"/>-->
+
+<!--            </LinearLayout>-->
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</FrameLayout>

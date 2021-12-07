@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/img_bg1"
+            android:layout_width="292dp"
+            android:layout_height="171dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/curve_design_background" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/salon_purple_image_welcome_mobile_enter_page_500dp" />
+
+            <TextView
+                android:id="@+id/tv_welcomeSalonEase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_image"
+                android:layout_centerHorizontal="true"
+                android:shadowColor="@color/textview"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+
+                android:text="Welcome to Salon Ease"
+                android:textColor="@color/textview_purple_dark"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/material_mobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_welcomeSalonEase"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:hint="Mobile No."
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                app:startIconContentDescription="Mobile Number"
+                app:startIconDrawable="@drawable/ic_call">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:inputType="phone"
+                    android:scrollbars="horizontal"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/btn_continue"
+                    android:scrollHorizontally="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_continue"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_privacyPolicy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_bg"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Continue"
+                android:textColor="@color/white"
+                app:icon="@drawable/ic_arrow_forward"
+                app:iconGravity="end" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_termsAndConditions"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/material_mobile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb_iAcceptThe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I accept the "
+                    android:textColor="@color/textview"
+                    android:checked="true"/>
+
+
+                <TextView
+                    android:id="@+id/tv_TermsAndConditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_continue"
+                    android:text="Terms and Conditions"
+                    android:textColor="@color/textview_purple_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_and"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_continue"
+                    android:text=" and "/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_privacyPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/layout_termsAndConditions"
+                android:layout_centerHorizontal="true" >
+
+
+
+                <TextView
+                    android:id="@+id/tv_privacyPolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_continue"
+                    android:text="Privacy Policy."
+                    android:textColor="@color/textview_purple_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--            <Button-->
+            <!--                android:id="@+id/btn_continue"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/material_mobile"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:layout_marginTop="40dp"-->
+            <!--                android:background="@drawable/button_bg"-->
+            <!--                android:text="Continue"-->
+            <!--                android:paddingRight="30dp"-->
+            <!--                android:paddingLeft="30dp"-->
+            <!--                android:drawableRight="@drawable/ic_arrow_forward"-->
+            <!--                icongr-->
+            <!--                android:textColor="@color/white" />-->
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_bg2"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/curve_design_background"
+            android:rotation="180" />
+
+    </RelativeLayout>
+</ScrollView>

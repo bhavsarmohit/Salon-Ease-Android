@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard_vendor.fragments.spaStation.Services.subCategories.vendor_spaStation_Services_subCategories_Remove">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <!--                <RelativeLayout-->
+                <!--                    android:id="@+id/rl_profilePic"-->
+                <!--                    android:layout_centerHorizontal="true"-->
+                <!--                    android:layout_alignParentTop="true"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:layout_width="80dp"-->
+                <!--                    android:layout_height="80dp">-->
+
+                <!--                    <com.mikhaellopez.circularimageview.CircularImageView-->
+                <!--                        android:id="@+id/img_profile"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:src="@drawable/ic_person"-->
+                <!--                        app:civ_border_color="@android:color/darker_gray"-->
+                <!--                        app:civ_border_width="2dp"-->
+                <!--                        app:civ_shadow="true"-->
+                <!--                        app:civ_shadow_radius="7" />-->
+
+                <!--                    <ImageView-->
+                <!--                        android:id="@+id/img_editProfilePen"-->
+                <!--                        android:layout_width="20dp"-->
+                <!--                        android:layout_height="20dp"-->
+                <!--                        android:layout_alignBottom="@id/img_profile"-->
+                <!--                        android:layout_alignParentRight="true"-->
+                <!--                        android:src="@drawable/ic_edit_pen" />-->
+                <!--                </RelativeLayout>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/tv_salonStation"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_alignParentTop="true"-->
+                <!--                    android:layout_centerHorizontal="true"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:text="Salon Station"-->
+                <!--                    android:textColor="@color/purple_700"-->
+                <!--                    android:textSize="25dp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <TextView
+                    android:id="@+id/tv_removeServiceSubCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Remove Subcategory:"
+                    android:textColor="@color/textview_green"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    android:id="@+id/material_serviceName"-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@id/tv_removeService"-->
+                <!--                    android:layout_marginTop="20dp"-->
+                <!--                    android:hint="Service Name"-->
+                <!--                    app:boxCornerRadiusBottomEnd="50dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="50dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="50dp"-->
+                <!--                    app:boxCornerRadiusTopStart="50dp"-->
+                <!--                    app:endIconMode="clear_text"-->
+                <!--                    app:startIconContentDescription="Service Name"-->
+                <!--                    app:startIconDrawable="@drawable/ic_assignment_apply_for_vendor_service">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/et_serviceName"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:inputType="text"-->
+                <!--                        android:maxLines="1"-->
+                <!--                        android:nextFocusDown="@+id/et_password"-->
+                <!--                        android:scrollHorizontally="true" />-->
+
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/layout_spinner_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_removeServiceSubCategory"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="20dp">
+
+                    <Spinner
+                        android:id="@+id/spinner_selectSubCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+                </RelativeLayout>
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    android:id="@+id/material_products"-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@id/material_serviceName"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:hint="Products"-->
+                <!--                    app:boxCornerRadiusBottomEnd="50dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="50dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="50dp"-->
+                <!--                    app:boxCornerRadiusTopStart="50dp"-->
+                <!--                    app:endIconMode="clear_text"-->
+                <!--                    app:startIconContentDescription="Username"-->
+                <!--                    app:startIconDrawable="@drawable/ic_hopping_bag_products">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/et_products"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:inputType="text"-->
+                <!--                        android:maxLines="1"-->
+                <!--                        android:nextFocusDown="@+id/et_password"-->
+                <!--                        android:scrollHorizontally="true" />-->
+
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/layout_buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_spinner_border"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_done"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_bg"
+                        android:text="Done"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/white" />
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_removeSubCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_bg"
+                        android:text="Remove SubCategory"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/layout_buttons" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

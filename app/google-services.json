@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "540953236071",
+    "firebase_url": "https://salon-ease-default-rtdb.firebaseio.com",
+    "project_id": "salon-ease",
+    "storage_bucket": "salon-ease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540953236071:android:c89a3161621cc4a7323ac2",
+        "android_client_info": {
+          "package_name": "com.example.salon_ease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540953236071-3kc0a5m949j9m6sc89oq9oc89pm1it5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salon_ease",
+            "certificate_hash": "7f41ef73972b3e76e9cfd0a0010d8c0add6e3533"
+          }
+        },
+        {
+          "client_id": "540953236071-lujf8cd4ejp92u4kh2r33v9nig8mgspi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2J168ueHZnBstX5HHpaR-8XPi3HZ3jJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540953236071-lujf8cd4ejp92u4kh2r33v9nig8mgspi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
