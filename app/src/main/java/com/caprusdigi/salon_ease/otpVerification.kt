@@ -9,6 +9,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.caprusdigi.salon_ease.dashboard_customer.dashboard_customer
+import com.caprusdigi.salon_ease.dashboard_vendor.dashboard_vendor
 import com.caprusdigi.salon_ease.databinding.ActivityOtpVerificationBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
@@ -227,7 +228,9 @@ class otpVerification : AppCompatActivity() {
     }
 
     private fun moveUserToCustomerActivity() {
-        val intent = Intent(this , dashboard_customer::class.java)
+//        val intent = Intent(this , dashboard_customer::class.java)
+        val intent = Intent(this , chooseYourself::class.java)
+
 //                    intent.putExtra("mobileNo",mobileno)
         startActivity(intent)
         finish()

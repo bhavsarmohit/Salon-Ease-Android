@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/activity_otp_verification.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/fragment_vendor_salon_station__services__home_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/fragment_vendor_terms_and_conditions.xml" value="0.20291060291060292" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/recyclerview_vendor_service_description.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/recyclerview_vendor_services.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/spinner_list_image_string.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/layout/textview_with_padding_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease-Android/app/src/main/res/menu/nav_menu_vendor.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/border.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/border_dark_circular.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/mohit/AndroidStudioProjects/Salon-Ease/app/src/main/res/drawable/button_bg.xml" value="0.22037037037037038" />

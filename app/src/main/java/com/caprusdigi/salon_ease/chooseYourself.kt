@@ -137,6 +137,7 @@ class chooseYourself : AppCompatActivity() {
             val eventListener: ValueEventListener = object : ValueEventListener {
                 override fun onDataChange(dataSnapshot: DataSnapshot) {
 //                            if (!dataSnapshot.exists()) {
+                    Log.d(ContentValues.TAG, "vendor check root") //Don't ignore errors!
 
                     if(dataSnapshot.getValue<String>() == null) {
 
@@ -173,6 +174,7 @@ class chooseYourself : AppCompatActivity() {
             userNameRef.addListenerForSingleValueEvent(eventListener)
 
 //            ==============
+            Log.d(ContentValues.TAG, "check vendor outer") //Don't ignore errors!
 
 
 

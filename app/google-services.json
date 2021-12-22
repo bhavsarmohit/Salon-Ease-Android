@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "540953236071-iud072g5a0qktg8g3fm49pjvn8qqgeju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caprusdigi.salon_ease",
+            "certificate_hash": "c3ad92f297f61bb260c586896b002d67fe71b8f2"
+          }
+        },
+        {
           "client_id": "540953236071-vuon4j0qqbvkrc661a7q6247jtjimb0m.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

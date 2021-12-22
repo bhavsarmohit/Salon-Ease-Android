@@ -21,6 +21,7 @@ import com.caprusdigi.salon_ease.welcomeMobileEnter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.getValue
+import java.lang.Exception
 
 class dashboard_vendor : AppCompatActivity() {
 
@@ -87,6 +88,32 @@ class dashboard_vendor : AppCompatActivity() {
 //                R.id.nav_editProfile -> {
 //                intent = Intent(this, editProfile::class.java)
 //                startActivity(intent) }
+
+                R.id.nav_share -> {
+//                    share the app
+                    try {
+                        val shareIntent = Intent(Intent.ACTION_SEND)
+                        shareIntent.type = "text/plain"
+                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Salon Ease")
+                        var shareMessage = "\nLet me recommend you Salon Ease application, try it \n\n"
+//                        shareMessage =
+//                            """
+//                            ${shareMessage}https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}
+//
+//
+//                            """.trimIndent()
+                        shareMessage =
+                            """
+                            ${shareMessage}https://play.google.com/store/apps/details?id=com.caprusdigi.salon_ease
+                            
+                            
+                            """.trimIndent()
+                        shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage)
+                        startActivity(Intent.createChooser(shareIntent, "choose one"))
+                    } catch (e: Exception) {
+                        //e.toString();
+                    }
+                }
 
 //                sign out firebase authentication
                 R.id.nav_signOut -> {
